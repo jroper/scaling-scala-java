@@ -1,0 +1,7 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+POST    /payments                   controllers.Application.payments
+
+GET     /assets/*file               controllers.Assets.at(path="/public", file)
